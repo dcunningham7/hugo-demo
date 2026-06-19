@@ -19,7 +19,6 @@ pluralizeListTitles = false
   call_for_action_text = "Download"
   call_for_action_url = "//eclipse.org/downloads/"
   call_for_action_icon = "fa-download"
-  layout_style = "astro"
   hide_ad = false
   featured_content_publish_target = "eclipse_org"
   sidebar_layout = "default"
@@ -65,24 +64,33 @@ pluralizeListTitles = false
 
 [[menu.sidebar]]
   parent ="home"
-  name = "hugo-solstice-theme"
-  url = "https://webdev.eclipse.org/docs/hugo/"
-  weight = 1
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "Solstice"
-  url = "https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/"
+  name = "Solstice Assets"
+  url = "https://webdev.eclipse.org/docs/solstice/"
   weight = 2
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
 [[menu.sidebar]]
   parent ="home"
-  name = "Hugo"
-  url = "https://gohugo.io/documentation/"
+  name = "Solstice Components"
+  url = "https://webdev.eclipse.org/docs/components/"
   weight = 3
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
+
+[[menu.sidebar]]
+  parent = "home"
+  name = "Hugo"
+  weight = 1
+  identifier = "hugo"
+
+[[menu.sidebar]]
+  parent ="hugo"
+  name = "Hugo Framework"
+  url = "https://gohugo.io/documentation/"
+  weight = 1
+
+[[menu.sidebar]]
+  parent ="hugo"
+  name = "Hugo Solstice Theme"
+  url = "https://webdev.eclipse.org/docs/hugo/"
+  weight = 2
 
 # Uncomment [[menu.main]] to hide the default EF menu
 # or to define your own menu links.
