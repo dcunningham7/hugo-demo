@@ -1,55 +1,45 @@
 ---
-title: "hugo-eclipsefdn-website-boilerplate"
+title: "Celestial Spec Site"
 date: 2026-05-08T10:00:00-05:00
-headline: "Hugo Website Boilerplate for <br> Eclipse Foundation"
-tagline: "The official starter kit for building Eclipse Foundation project websites."
+headline: "Working Spec Site for <br> Celestial Working Group."
+tagline: "An unofficial demo for the purpose of practicing web development in Hugo."
 hide_page_title: true
-breadcrumb_title: "Boilerplate"
+breadcrumb_title: "Demonstration Purposes Only"
 hide_breadcrumb: false
-#hide_sidebar: true
-#show_featured_story: true
+hide_sidebar: false
+#show_featured_story: false
+show_featured_footer: false
 #layout: "single"
 #links: [[href: "/projects/", text: "Projects"],[href: "/org/workinggroups/", text: "Working Group"],[href: "/membership/", text: "Members"],[href: "/org/value", text: "Business Value"]]
 #container: "container-fluid"
 ---
 
-The hugo-eclipsefdn-website-boilerplate is a starting point for building
-Eclipse Foundation project websites. It is available under the EPL-v2 and
-maintained by the Eclipse Foundation software development team, with community
-contributions welcome.
 
-## What's included
+## What we do
 
-This boilerplate comes pre-configured with the **[Hugo Solstice Theme](https://webdev.eclipse.org/docs/hugo/)**, which provides:
+Celestial Spec is a fictional working group. We publish a short spec and
+run a pretend launch event. This site is an unofficial personal demo. It is
+not affiliated with the Eclipse Foundation.
 
-- Eclipse Foundation branding and layout templates
-- Navigation, footer, and sidebar layouts
+The page is built from the Eclipse Hugo boilerplate: copy in markdown, files
+in `static/`, and theme shortcodes (YouTube, event agenda).
 
-It also includes **[Solstice Assets](https://webdev.eclipse.org/docs/solstice/)**, 
-the Eclipse Foundation's design system and legacy component library.
+## Documents
 
-## Optional: Solstice Components
+- [Tickets (PDF)](tickets.pdf)
+- [Event information (PDF)](catsun.pdf)
 
-[Solstice Components](https://webdev.eclipse.org/docs/components/) is an
-optional web component library you can add to your project. It can be used to
-sprinkle in ready-to-use interactive components into your site, including:
+## Launch event
 
-- **Adopters** - display your project's adopter logos
-- **Working Groups** - showcase working group membership and list working group projects
-- **News & Events** - surface upcoming events and announcements
-- **Featured Stories** - highlight the latest stories from the Eclipse Foundation newsroom
-- **UI elements** - accordions, carousels, and more
-- More is to come
+A fake agenda for the launch, from `data/en/default/agenda.yaml` and the
+theme agenda shortcode:
 
-Solstice Components is not bundled in the boilerplate but can be added as a
-dependency through NPM or by CDN.
+{{< events/agenda >}}
 
-## Documentation
+## Shortcode 
 
-- [Hugo Solstice Theme docs](https://webdev.eclipse.org/docs/hugo/) - theme
-  configuration, layouts, and shortcodes
-- [Solstice Components docs](https://webdev.eclipse.org/docs/components/) - web
-  component reference and usage guides
-- [Solstice Assets](https://webdev.eclipse.org/docs/solstice/) - global styles,
-  legacy component reference and usage guides
+The theme YouTube **shortcode**, including an overview of Celestial's latest event!:
 
+{{< youtube "dg4dmNvxdu0" >}}
+
+###### Note: This cat is not affiliated with Celestial (a fake company) or Eclipse Foundation (a real company).

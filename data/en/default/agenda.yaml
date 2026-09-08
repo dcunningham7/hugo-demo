@@ -1,0 +1,32 @@
+complete: true
+types:
+  - name: Demo
+    id: 1
+    color: "#e40"
+  - name: Keynote
+    id: b2
+    color: "#e44"
+  - name: Symposium
+    id: 2
+    color: "#66c"
+
+items:
+  - name: Open-source software
+    presenter: Dylan Cunningham
+    type: 1
+    time: 8:00-10:20 EST
+  - name: Typing Fast or How To Impress Your Grandma
+    presenter: John Demo
+    type: 1
+    time: 10:30-12:15 EST
+  - name: Break
+    type: break
+    time: 12:30 EST
+  - name: Industry keynote
+    presenter: Celestial Spec Works
+    type: b2
+    time: 14:00-16:30 EST
+  - name: Game Development Symposium
+    presenter: Jane Doe
+    type: 2
+    time: 17:00-19:30 EST
