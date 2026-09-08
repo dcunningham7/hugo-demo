@@ -1,6 +1,6 @@
-baseurl = "https://eclipse.dev/hugo-eclipsefdn-website-boilerplate"
+baseurl = "https://hugo-demo-dylancunningham"
 DefaultContentLanguage = "en"
-title = "The Community for Open Innovation and Collaboration"
+title = "Celestial Spec (hugo demo)"
 theme = "hugo-solstice-theme"
 metaDataFormat = "yaml"
 disableKinds = []
@@ -8,9 +8,9 @@ enableRobotsTXT = true
 pluralizeListTitles = false
 
 [Params]
-  google_tag_manager = "GTM-5WLCZXC"
-  description = "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
-  seo_title_suffix = " | The Eclipse Foundation"
+  
+  description = "Unofficial personal Hugo demo. Not affiliated with the Eclipse Foundation."
+  seo_title_suffix = ""
   keywords = ["eclipse", "project", "plug-ins", "plugins", "java", "ide", "swt", "refactoring", "free java ide", "tools", "platform", "open source", "development environment", "development", "ide"]
   news_count = 3
   gcse = "011805775785170369411:p3ec0igo0qq"
