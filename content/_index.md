@@ -4,9 +4,9 @@ date: 2026-05-08T10:00:00-05:00
 headline: "Working Spec Site for <br> Celestial Working Group."
 tagline: "An unofficial demo for the purpose of practicing web development in Hugo."
 hide_page_title: true
-breadcrumb_title: "Demonstration Purposes Only"
-hide_breadcrumb: false
-hide_sidebar: true
+breadcrumb_title: ""
+hide_breadcrumb: true
+hide_sidebar: true 
 show_featured_story: false
 show_featured_footer: false
 #layout: "single"

@@ -1,4 +1,4 @@
-baseurl = "https://hugo-demo-dylancunningham"
+baseurl = "https://hugo-demo-dylancunningham.netlify.app"
 DefaultContentLanguage = "en"
 title = "Celestial Spec (hugo demo)"
 theme = "hugo-solstice-theme"
